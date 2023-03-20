@@ -1,0 +1,34 @@
+.multiple-selector__label {
+  @apply block font-semibold mb-1 text-[#474747] text-[14px];
+}
+
+.multiple-selector__input {
+  @apply border-[#DDDEE3] border-[1px] w-[500px] px-3 py-2 rounded-md min-h-[40px] overflow-hidden flex flex-wrap;
+}
+
+.multiple-input {
+  @apply border-none outline-none h-full w-full placeholder-[#A9A9A9];
+}
+
+.multiple-input__active {
+  @apply border-none outline-none h-full w-full placeholder-[#A9A9A9] mt-3;
+}
+
+.multiple-selector__options {
+  @apply bg-white border-[#DDDEE3] border-[1px] rounded-md absolute w-full;
+}
+
+.multiple-selector__options li {
+  @apply px-3 py-2 hover:bg-[#f3f3f3] cursor-pointer;
+}
+
+.options__not-found {
+  @apply py-3 text-center text-[#A9A9A9];
+}
+
+.multiple-selector__tags{
+  @apply flex w-auto h-full flex-wrap items-center gap-2;
+}
+.multiple-tag {
+  @apply bg-[#d3d3d3] py-1 px-3 rounded-md flex gap-2 items-center;
+}

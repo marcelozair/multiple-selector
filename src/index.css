@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  @apply w-screen h-screen flex items-center justify-center bg-[#4164A0]; 
+}
+
+.box {
+  @apply w-[600px] min-h-[200px] flex items-center justify-center bg-white rounded-md shadow-md; 
+}
